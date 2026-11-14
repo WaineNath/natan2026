@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portofolio profesional Natan Waine - desain grafis, brand identity, IT konsultan, dan web developer.">
+    <title>Natan Waine — Creative Technologist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script defer src="data.js"></script>
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <div class="noise" aria-hidden="true"></div>
+    <header class="site-header">
+        <a class="brand" href="#home" aria-label="Natan Waine home"><span class="brand-mark">NW</span><span>Natan
+                Waine<span class="brand-dot">.</span></span></a>
+        <nav class="desktop-nav" aria-label="Navigasi utama">
+            <a class="nav-link active" href="#home" aria-current="page">Beranda</a>
+            <a class="nav-link" href="#karya">Karya saya</a>
+            <a class="nav-link" href="#artikel">Artikel</a>
+            <a class="nav-link" href="#sertifikat">Sertifikat</a>
+            <a class="nav-link" href="#kontak">Kontak</a>
+        </nav>
+        <div class="header-actions">
+            <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Ganti tema" title="Ganti tema"><i
+                    data-lucide="sun-moon"></i></button>
+            <a class="header-cta" href="#kontak">Mari bicara <i data-lucide="arrow-up-right"></i></a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero page-section menu-page" id="home">
+            <div class="hero-copy reveal">
+                <p class="eyebrow"><span class="eyebrow-line"></span> PORTFOLIO / 2026</p>
+                <h1>Mengubah ide<br>menjadi <em>identitas.</em></h1>
+                <p class="hero-description">Saya Natan Waine, desainer dan problem solver digital yang merangkai
+                    strategi, visual, dan teknologi menjadi karya yang punya arah.</p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#karya">Lihat karya <i
+                            data-lucide="arrow-down-right"></i></a>
+                    <a class="text-link" href="https://wa.me/6281344234657" target="_blank" rel="noreferrer">Mulai
+                        ngobrol <i data-lucide="message-circle"></i></a>
+                </div>
+                <div class="hero-meta"><span><strong>04</strong> keahlian utama</span><span><strong
+                            data-stat="projects">0</strong>
+                        proyek terpilih</span><span><strong data-stat="certificates">0</strong> sertifikasi</span></div>
+            </div>
+            <div class="hero-visual reveal reveal-delay">
+                <div class="portrait-frame"><img src="Asset/natan.png" alt="Foto Natan Waine"
+                        id="profile-image"><span
+                        class="portrait-label">NATAN<br>WAINE</span></div>
+                <div class="orbit-note"><span class="orbit-dot"></span><span>Designing<br>with purpose</span></div>
+                <div class="hero-index">01 <span>/ 05</span></div>
+            </div>
+        </section>
+
+        <section class="intro-band page-section home-content" aria-label="Tentang Natan Waine">
+            <div class="section-kicker">01 <span>WHO I AM</span></div>
+            <div class="intro-content">
+                <h2>Design is how<br>I make sense<br>of <em>the world.</em></h2>
+                <div>
+                    <p>Saya percaya desain yang kuat bukan hanya terlihat indah, tetapi mampu menyederhanakan hal rumit,
+                        membangun kepercayaan, dan membuat orang bergerak.</p><a class="text-link" href="#kontak">Kenali
+                        lebih dekat <i data-lucide="arrow-up-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="work-section page-section menu-page" id="karya">
+            <div class="section-heading reveal">
+                <div>
+                    <p class="eyebrow">02 / SELECTED WORK</p>
+                    <h2>Karya yang<br><em>berbicara.</em></h2>
+                </div>
+                <p class="section-side-note">Kumpulan proyek yang dibangun<br>dengan rasa ingin tahu dan niat.</p>
+            </div>
+            <div class="filter-bar" id="filter-bar" role="tablist" aria-label="Filter kategori karya"><button
+                    class="filter-button active" data-filter="all">Semua <span data-count="all"></span></button><button
+                    class="filter-button" data-filter="web">Web Development <span
+                        data-count="web"></span></button><button class="filter-button" data-filter="brand">Brand Identity <span
+                        data-count="brand"></span></button><button class="filter-button"
+                    data-filter="design">Logo &amp; Desain <span data-count="design"></span></button></div>
+            <div class="work-grid" id="work-grid"></div>
+        </section>
+
+        <section class="services-section page-section home-content">
+            <div class="section-kicker">03 <span>CAPABILITIES</span></div>
+            <div class="services-layout">
+                <h2>Yang bisa<br>kita <em>bangun.</em></h2>
+                <div class="service-list">
+                    <article><span class="service-number">01</span>
+                        <div>
+                            <h3>Desain Grafis</h3>
+                            <p>Visual yang tajam untuk menyampaikan pesan dengan karakter yang kuat.</p>
+                        </div><i data-lucide="arrow-up-right"></i>
+                    </article>
+                    <article><span class="service-number">02</span>
+                        <div>
+                            <h3>Brand Identity</h3>
+                            <p>Sistem identitas yang konsisten, relevan, dan mudah diingat.</p>
+                        </div><i data-lucide="arrow-up-right"></i>
+                    </article>
+                    <article><span class="service-number">03</span>
+                        <div>
+                            <h3>IT Konsultan</h3>
+                            <p>Solusi teknologi yang tepat guna untuk operasional yang lebih efisien.</p>
+                        </div><i data-lucide="arrow-up-right"></i>
+                    </article>
+                    <article><span class="service-number">04</span>
+                        <div>
+                            <h3>Web Developer</h3>
+                            <p>Website cepat, responsif, dan dirancang untuk bertumbuh bersama bisnis.</p>
+                        </div><i data-lucide="arrow-up-right"></i>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="article-section page-section menu-page" id="artikel">
+            <div class="section-heading reveal">
+                <div>
+                    <p class="eyebrow">04 / NOTES & IDEAS</p>
+                    <h2>Catatan<br><em>di balik layar.</em></h2>
+                </div><a class="text-link" href="#artikel">Lihat semua artikel <i data-lucide="arrow-up-right"></i></a>
+            </div>
+            <div class="article-grid" id="article-grid"></div>
+        </section>
+
+        <section class="certificate-section page-section menu-page" id="sertifikat">
+            <div class="section-heading reveal">
+                <div>
+                    <p class="eyebrow">05 / CREDENTIALS</p>
+                    <h2>Terus belajar,<br><em>terus bertumbuh.</em></h2>
+                </div>
+                <p class="section-side-note">Sertifikat dan penghargaan<br>yang mendukung perjalanan.</p>
+            </div>
+            <div class="certificate-list" id="certificate-list"></div>
+        </section>
+
+        <section class="contact-section page-section menu-page" id="kontak">
+            <div class="contact-top">
+                <p class="eyebrow">06 / GET IN TOUCH</p>
+                <h2>Punya ide<br>yang <em>berani?</em></h2>
+                <p class="contact-copy">Ceritakan tantangan atau rencana yang sedang kamu pikirkan. Kita cari bentuk
+                    terbaiknya bersama.</p><a class="button button-yellow" href="https://wa.me/6281344234657"
+                    target="_blank" rel="noreferrer">Chat WhatsApp <i data-lucide="message-circle"></i></a>
+            </div>
+            <div class="contact-gallery" id="contact-gallery"></div>
+            <div class="contact-bottom">
+                <div class="social-links"><a href="https://facebook.com/wainenath.official" target="_blank"
+                        rel="noreferrer">Facebook <i data-lucide="arrow-up-right"></i></a><a
+                        href="https://instagram.com/wainenath.official" target="_blank" rel="noreferrer">Instagram <i
+                            data-lucide="arrow-up-right"></i></a><a href="https://youtube.com/@wainenath.official"
+                        target="_blank" rel="noreferrer">YouTube <i data-lucide="arrow-up-right"></i></a></div><a
+                    class="whatsapp-link" href="https://wa.me/6281344234657" target="_blank" rel="noreferrer"><span
+                        class="whatsapp-icon"><i data-lucide="message-circle"></i></span><span><small>Prefer
+                            chat?</small><strong>WhatsApp saya</strong></span><i data-lucide="arrow-up-right"></i></a>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer"><a class="brand" href="#home"><span class="brand-mark">NW</span><span>Natan Waine<span
+                    class="brand-dot">.</span></span></a>
+        <p>Designed with purpose · © 2026</p><a href="#home" class="back-top">Kembali ke atas <i
+                data-lucide="arrow-up"></i></a>
+    </footer>
+    <nav class="mobile-nav" aria-label="Navigasi mobile"><a class="mobile-nav-link active" href="#home"
+            aria-current="page"><i data-lucide="home"></i><span>Beranda</span></a><a class="mobile-nav-link"
+            href="#karya"><i
+                data-lucide="layout-grid"></i><span>Karya</span></a><a class="mobile-nav-link" href="#artikel"><i
+                data-lucide="notebook-pen"></i><span>Artikel</span></a><a class="mobile-nav-link" href="#sertifikat"><i
+                data-lucide="award"></i><span>Sertifikat</span></a><a class="mobile-nav-link" href="#kontak"><i
+                data-lucide="send"></i><span>Kontak</span></a></nav>
+</body>
+
+</html>
